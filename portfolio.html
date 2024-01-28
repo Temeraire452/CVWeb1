@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV website</title>
+    <link rel="stylesheet" href="Mystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1>Projects</h1>
+
+    <div class="projects-container">
+        <div class="project">
+            <h2>Chess board</h2>
+            <img src="https://images.unsplash.com/photo-1615245579921-3cbece62cb4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Chess board" width="600" height="200">
+            <input type="checkbox" class="modal-btn" id="modal-chess" />
+            <label for="modal-chess" class="info-button">More Information</label>
+            <div class="modal" id="modal-chess-content">
+                <div class="modal-content">
+                    <label for="modal-chess" class="close-btn">&times;</label>
+                    <p>Code that takes a number you want and creates a chess board of black/white with that number.</p>
+                    <a href="https://github.com/Temeraire452/ChessBoard" target="_blank">Chess board on Github</a>
+                </div>
+            </div>
+        </div>
+    
+    <div class="project">
+        <h2>Zoo</h2>
+        <img src="https://images.unsplash.com/photo-1534567153574-2b12153a87f0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Zoo animals" width="600" height="200">
+        <input type="checkbox" class="modal-btn" id="modal-zoo" />
+        <label for="modal-zoo" class="info-button">More Information</label>
+        <div class="modal" id="modal-zoo-content">
+            <div class="modal-content">
+                <label for="modal-zoo" class="close-btn">&times;</label>
+                <p>Shows the use of Inherits in a project based on a zoo.</p>
+                <a href="https://github.com/Temeraire452/Animal" target="_blank">Animals on Github</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="project">
+        <h2>Numbers game</h2>
+        <img src="https://images.unsplash.com/photo-1502570149819-b2260483d302?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Numbers" width="600" height="200">
+        <input type="checkbox" class="modal-btn" id="modal-numbers" />
+        <label for="modal-numbers" class="info-button">More Information</label>
+        <div class="modal" id="modal-numbers-content">
+            <div class="modal-content">
+                <label for="modal-numbers" class="close-btn">&times;</label>
+                <p>Lets you guess on a random number from 1-20.</p>
+                <a href="https://github.com/Temeraire452/NumbersGame" target="_blank">Numbers game on Github</a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
